@@ -59,7 +59,7 @@ def MovieInfoSaver(mov):
         sheet.cell(idx + 2,3,m[2])
         sheet.cell(idx + 2,4,m[3])
 
-    workbook.save(u'douban_hrank_movie.xlsx')  # 保存工作簿
+    workbook.save(u'../data/douban_hrank_movie.xlsx')  # 保存工作簿
 
 if __name__ == "__main__":
     movinfo = []
